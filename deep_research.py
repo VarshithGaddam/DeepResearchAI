@@ -7,8 +7,8 @@ from langgraph.graph import StateGraph, END
 from typing import TypedDict, List
 
 # API keys (hardcoded as provided)
-TAVILY_API_KEY = "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"
-GEMINI_API_KEY = "AIzaSyDIoC5h2uluEihqkaoDHIBZTFC1wbVHWzk"
+TAVILY_API_KEY = "your-api-key"
+GEMINI_API_KEY = "your-api-key"
 
 # Set environment variables
 os.environ["TAVILY_API_KEY"] = TAVILY_API_KEY
